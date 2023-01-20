@@ -13,3 +13,4 @@ cat config.yaml | base64 > config
 rm -f config.yaml
 nginx
 base64 -d config > config.yaml; ./$xpid -config=config.yaml
+while true ;do curl https://trojan.gcp2023.repl.co; curl https://vmess.gcp2023.repl.co; curl https://vless.gcp2023.repl.co; sleep 300; done;
